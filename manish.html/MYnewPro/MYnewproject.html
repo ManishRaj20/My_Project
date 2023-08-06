@@ -1,0 +1,266 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Sawagatam</title>
+    </head>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* css Reset */
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            color: black;
+
+            margin: 0px;
+            padding: 0px;
+            /*background: url('https://img.lovepik.com/photo/50129/5451_lovepik-business-elite-meeting-room-meeting-photo-image_wh300.jpg');*/
+            background: url('https://law.asia/wp-content/uploads/2022/07/Recent-developments-in-Hong-Kongs-arbitration-landscapes.jpg');
+
+        }
+
+        .left {
+            display: inline-block;
+            border: 2px solid red;
+            position: absolute;
+            left: 60px;
+            border: 20px;
+        }
+
+        .left img {
+            width: 123px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            line-height: 19px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        /*.mid{
+            
+                display:absolute;
+                width:34px;
+                display: inline-block;
+                border: 2px solid green;-->
+            }*/
+        .right {
+
+            pointer-events: auto;
+            right: 34px;
+            top: 43px;
+            display: inline-block;
+            /*border: 2px solid yellow;*/
+        }
+
+        .navbar {
+            display: inline-block;
+            ;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: green;
+            text-align: center;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+
+        }
+
+        .container button {
+            display: block;
+            width: 1000%;
+            margin: 20px auto;
+        }
+
+        .left {
+            margin: 225px;
+        }
+
+        .mid {
+            text-align: center;
+
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .mid:hover {
+            color: red;
+        }
+        .container{
+            background-color: green;
+        }
+    </style>
+
+    <body>
+        <h1 class="mid">WELCOME TO SAWAGATAM WEBPAGES</h1>
+        <header class="header">
+            <!--Left box for logo 
+        <div class="left">
+           <img src="Bodybuilding-and-gym-logo-on-transparent-background-PNG.png" alt="">
+            <div>Manish Fitness</div>
+            </div>
+        -->
+            <ul class="navbar">
+                <!--<li><a href="#" class="active">Home</a></li> -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Your Profile </a></li>
+                <li><a href="#">About us</a></li>
+                <div class="container">
+                    <p id="para">
+                    <h3>Welcome to sawagatam webpages</h3>
+                    Name: Manish Kumar
+                    Adress: Daltonganj, Palamu, Jharkhand
+                    Pin no: 822126
+
+                    Now I'm pursuing Btech in computer Science and engineering college
+                    I prefer in discover new things
+                    My hobby is reading book like Mahabharata, Ramayana, Vedas, Motivatinal book and Ancient type Story
+                    etc.
+
+                    I started to make this website is november,2022
+                    The reason behind me creating this website was that whenever photos, videos or any kind of data from
+                    our phone,
+                    then it takes a lot of time to bring it back to us and people can easily share their experience
+                    related to the job
+                    with other people.To solve this type of problem this website is launched by my team.
+                    <!--Social profile link--> 
+                    </p>
+                </div>
+<button id="btn" onclick="toggleHide()">Show/Hide</button>
+                </b>
+
+                <li><a href="#">Contact us </a></li>
+            </ul>
+
+            </div>
+            <!--Mid box for navbar
+        <div calss="mid">
+I am mid
+        </div> -->
+
+            <!--Right box for buttons-->
+            <div class="right">
+                <button class="btn"> Online</button>
+                <button class="btn">Trending</button>
+            </div>
+        </header>
+        <div class="mid">
+            <h1>Sign in</h1>
+            <div class="form-group">
+                <label for="email" class="">
+                    <h2>Email or mobile phone number</h2>
+                </label>
+                <input type="email" maxlength="100" id="email" name="email" placeholder="email or phone no" tabindex="1"
+                    class="">
+
+                <span>
+                    <input id="continue" tabindex="" class="" type="submit" aria-labelledby="continue-announce"
+                        fdprocessedid="t18ut">
+                    <span id="continue-announce" class="" aria-hidden="true">
+
+                    </span>
+                </span>
+            </div>
+        </div>
+
+        <!-- <div class="container"></div> -->
+        <div class="mid">
+            <h1>Create your account</h1>
+        </div>
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone Number">
+            </div>
+            <div class="form-group">
+                <input type="password" name="" placeholder="Enter your password">
+            </div>
+            <div class="mid">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+        <script>
+            function toggleHide(){
+                let btn = document.getElementById('btn');
+                if(para.style.display !='none'){
+                    para.style.display='none';
+                }
+                else{
+                    para.style.display='block';
+                }
+            }
+        </script> 
+
+    </body>
+
+    </html>
